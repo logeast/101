@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"mypackage/greet"
+	"mymodule/mypackage"
 )
 
 func main() {
-	hello := greet.SayHello()
+	hello := mypackage.SayHello()
 	fmt.Println(hello)
 }
